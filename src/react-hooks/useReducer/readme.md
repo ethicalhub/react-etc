@@ -7,3 +7,5 @@ When to use useReducer
 - For complex state logic (e.g., multiple actions, conditions).
 - When managing state across multiple components or actions.
 - In cases where state updates are more predictable or require actions with specific effects.
+
+the code attached is just the basic implementation, which I might/might not update later with more complex logic
