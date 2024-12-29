@@ -6,3 +6,5 @@ This makes useInsertionEffect useful for tasks like injecting critical CSS (e.g.
 
 - Use useInsertionEffect if you need to apply critical CSS or styles (like theme switching or adding dynamic CSS) before the browser paints the screen. This can help prevent visible flickering and layout shifts, especially in modern applications where style consistency is important.
 - Use useLayoutEffect if you need to read or manipulate the layout (e.g., measuring elements, animating components) and want to ensure the browser updates the layout before rendering.
+
+useInsertionEffect ---> useLayoutEffect ---> useEffect

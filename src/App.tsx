@@ -3,6 +3,7 @@ import UseIdExample from "./react-hooks/useId"
 import ImperativeHandleRef from "./react-hooks/useImperativeHandle"
 import InsertionEffectHook from "./react-hooks/useInsertionEffect"
 import LayoutEffectExample from "./react-hooks/useLayoutEffect"
+import UseMemoExample from "./react-hooks/useMemo"
 import ReducerHook from "./react-hooks/useReducer"
 import RefHook from "./react-hooks/useRef"
 import ThemeSwitcherApp from "./react-hooks/useSync"
@@ -33,6 +34,9 @@ const App = () => {
       </div>
       <div style={{margin: "2rem"}}>
       <UseDeferredValueExample />
+      </div>
+      <div style={{margin: "2rem"}}>
+      <UseMemoExample />
       </div>
     
     </section>

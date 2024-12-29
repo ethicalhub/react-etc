@@ -3,7 +3,7 @@
 useRef is a React hook that returns a mutable object which persists across component re-renders. It can be used to store a value or reference that does not trigger re-renders when changed.
 
 - Accessing DOM elements directly.
-- Storing mutable values that do not require re-rendering.
+- Storing mutable values that do not require re-rendering. While useState is immutable, and cause rerenders
 
 const myRef = useRef(initialValue)
 - myRef:
