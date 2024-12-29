@@ -3,7 +3,7 @@ import { useTransition, useState, useMemo } from 'react';
 const UseTransitionHook = () => {
   const [isPending, startTransition] = useTransition();
   const [query, setQuery] = useState("");
-  const [items] = useState(Array.from({ length: 10000 }, (_, i) => `Item ${i + 1}`));
+  const [items] = useState(Array.from({ length: 100 }, (_, i) => `Item ${i + 1}`));
 
   // Use useMemo to memoize the filtered items and avoid recalculating them on every render
   const filteredItems = useMemo(

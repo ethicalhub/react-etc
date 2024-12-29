@@ -1,3 +1,4 @@
+import UseDeferredValueExample from "./react-hooks/useDeferredValue"
 import UseIdExample from "./react-hooks/useId"
 import ImperativeHandleRef from "./react-hooks/useImperativeHandle"
 import InsertionEffectHook from "./react-hooks/useInsertionEffect"
@@ -28,6 +29,12 @@ const App = () => {
       </div>
       <div style={{margin: "2rem"}}>
       <UseTransitionHook />
+      </div>
+      <div style={{margin: "2rem"}}>
+      <UseDeferredValueExample />
+      </div>
+      <div style={{margin: "2rem"}}>
+   
       </div>
 
     </section>
