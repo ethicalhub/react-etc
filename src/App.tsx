@@ -1,9 +1,15 @@
 import ReducerHook from "./react-hooks/useReducer"
+import RefHook from "./react-hooks/useRef"
 const App = () => {
   return (
-    <div>
+    <section>
+      <div style={{margin: "2rem"}}>
       <ReducerHook />
-    </div>
+      </div>
+      <div style={{margin: "2rem"}}>
+      <RefHook />
+      </div>
+    </section>
   )
 }
 

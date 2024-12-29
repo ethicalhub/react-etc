@@ -8,4 +8,11 @@ When to use useReducer
 - When managing state across multiple components or actions.
 - In cases where state updates are more predictable or require actions with specific effects.
 
+How useReducer works:
+
+- The initialState is set when the component is rendered.
+- When an action is dispatched using dispatch, the reducer function is called with the current state and the action.
+- The reducer returns the new state based on the action's type.
+- The component re-renders with the updated state.
+
 the code attached is just the basic implementation, which I might/might not update later with more complex logic
