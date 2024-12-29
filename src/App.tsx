@@ -5,6 +5,7 @@ import InsertionEffectHook from "./react-hooks/useInsertionEffect"
 import LayoutEffectExample from "./react-hooks/useLayoutEffect"
 import ReducerHook from "./react-hooks/useReducer"
 import RefHook from "./react-hooks/useRef"
+import ThemeSwitcherApp from "./react-hooks/useSync"
 import UseTransitionHook from "./react-hooks/useTransition"
 const App = () => {
   return (
@@ -33,10 +34,7 @@ const App = () => {
       <div style={{margin: "2rem"}}>
       <UseDeferredValueExample />
       </div>
-      <div style={{margin: "2rem"}}>
-   
-      </div>
-
+    
     </section>
   )
 }
