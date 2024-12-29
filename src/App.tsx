@@ -4,6 +4,7 @@ import InsertionEffectHook from "./react-hooks/useInsertionEffect"
 import LayoutEffectExample from "./react-hooks/useLayoutEffect"
 import ReducerHook from "./react-hooks/useReducer"
 import RefHook from "./react-hooks/useRef"
+import UseTransitionHook from "./react-hooks/useTransition"
 const App = () => {
   return (
     <section>
@@ -24,6 +25,9 @@ const App = () => {
       </div>
       <div style={{margin: "2rem"}}>
       <UseIdExample />
+      </div>
+      <div style={{margin: "2rem"}}>
+      <UseTransitionHook />
       </div>
 
     </section>
