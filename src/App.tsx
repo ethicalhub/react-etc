@@ -1,3 +1,4 @@
+import UseIdExample from "./react-hooks/useId"
 import ImperativeHandleRef from "./react-hooks/useImperativeHandle"
 import InsertionEffectHook from "./react-hooks/useInsertionEffect"
 import LayoutEffectExample from "./react-hooks/useLayoutEffect"
@@ -21,6 +22,10 @@ const App = () => {
       <div style={{margin: "2rem"}}>
       <InsertionEffectHook />
       </div>
+      <div style={{margin: "2rem"}}>
+      <UseIdExample />
+      </div>
+
     </section>
   )
 }
