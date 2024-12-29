@@ -1,4 +1,6 @@
 import ImperativeHandleRef from "./react-hooks/useImperativeHandle"
+import InsertionEffectHook from "./react-hooks/useInsertionEffect"
+import LayoutEffectExample from "./react-hooks/useLayoutEffect"
 import ReducerHook from "./react-hooks/useReducer"
 import RefHook from "./react-hooks/useRef"
 const App = () => {
@@ -12,6 +14,12 @@ const App = () => {
       </div>
       <div style={{margin: "2rem"}}>
       <ImperativeHandleRef />
+      </div>
+      <div style={{margin: "2rem"}}>
+      <LayoutEffectExample />
+      </div>
+      <div style={{margin: "2rem"}}>
+      <InsertionEffectHook />
       </div>
     </section>
   )
