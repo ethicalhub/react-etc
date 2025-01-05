@@ -54,3 +54,8 @@ add more lines
 
 # ARIA Tag
 - Should we use it?
+
+Warning: Many of these widgets are fully supported in modern browsers. Developers should prefer using the correct semantic HTML element over using ARIA, if such an element exists. For instance, native elements have built-in keyboard accessibility, roles and states. However, if you choose to use ARIA, you are responsible for mimicking the equivalent browser behavior in script.
+
+
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
